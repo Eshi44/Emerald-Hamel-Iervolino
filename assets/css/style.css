@@ -1,0 +1,70 @@
+
+#frontpage {
+   height: 100%;
+    background: radial-gradient(ellipse at bottom, #233d37 0%, #090a0f 100%);
+    overflow: hidden;
+  }
+
+  
+
+#title {
+    position: absolute;
+    top: 25%;
+    font-size: 70px;
+    color: #FFF;
+    text-align: left;
+    font-family: "Source Sans Pro", "sans-serif";
+    
+  }
+
+  #introtext {
+      font-size: 20px;
+      font-family: "Roboto";
+      
+  }
+
+  #aboutMe {
+      background-color: white;
+      height: 100px;
+  }
+
+  #gem {
+  height: 1em;
+  width: 1em;
+  }
+
+  img {
+    vertical-align: middle;
+    margin-bottom: 1.5%;
+    border-radius: 50%;
+    -webkit-transition: -webkit-transform .7s ease-in-out;
+    transition: transform .7s ease-in-out;
+  }
+  img:hover {
+    -webkit-transform: rotate(100deg);
+    transform: rotate(100deg);
+    filter: drop-shadow(3px 3px 3px rgb(20, 104, 45));
+  }
+
+
+.btn.btn-outline-success{
+    border-color: #20e395;
+      color: #20e395;
+}
+
+ 
+  #button:hover {
+    box-shadow: 0 12px 16px 0 rgba(35, 163, 88, 0.20), 0 17px 50px 0 rgb(20, 104, 45);
+    background-color: rgba(29, 177, 102, 0.5);
+    border-color: #ffffff;
+    color: #ffffff;
+
+  }
+
+  #button:hover .fa-arrow-down{
+    transition: 1.5s;
+    transform: rotateY(180deg);
+
+}
+
+
