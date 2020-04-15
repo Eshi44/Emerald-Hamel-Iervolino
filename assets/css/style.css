@@ -1,18 +1,28 @@
 /* elements */
-img {
+#emerald-img {
 	vertical-align: middle;
 	margin-bottom: 1.5%;
 	border-radius: 50%;
 	-webkit-transition: -webkit-transform 0.7s ease-in-out;
 	transition: transform 0.7s ease-in-out;
 }
-img:hover {
+#emerald-img:hover {
 	-webkit-transform: rotate(100deg);
 	transform: rotate(100deg);
 	filter: drop-shadow(3px 3px 3px rgb(20, 104, 45));
 }
 
+#about-image {
+	height: 15%;
+	width: 15%;
+	
+}
+
 /* classes */
+.block {
+	background-color: #cccccc;
+}
+
 .btn.btn-outline-success {
 	border-color: #20e395;
 	color: #20e395;
