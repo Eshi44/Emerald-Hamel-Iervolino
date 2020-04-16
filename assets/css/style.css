@@ -1,14 +1,18 @@
-/* elements */
+/* Elements */
+body {
+	background-color: #1a1d21;
+}
 
-
-/* classes */
+/* Classes */
 
 .btn.btn-outline-success {
 	border-color: #20e395;
 	color: #20e395;
 }
 
-/* id */
+/* Ids */
+
+/* Intro Section*/
 #emerald-img {
 	vertical-align: middle;
 	margin-bottom: 1.5%;
@@ -21,25 +25,11 @@
 	transform: rotate(100deg);
 	filter: drop-shadow(3px 3px 3px rgb(20, 104, 45));
 }
-
-#center-text {
-	text-align: center;
-	margin-bottom: 5%;
-	margin-top: 5%;
-	}
-
-#about-image {
-	height: 200px;
-	margin-left: 32%;
-
-	
-}
 #frontpage {
 	height: 100%;
 	background: radial-gradient(ellipse at bottom, #233d37 0%, #090a0f 100%);
 	overflow: hidden;
 }
-
 #title {
 	position: absolute;
 	top: 25%;
@@ -48,25 +38,16 @@
 	text-align: left;
 	font-family: "Source Sans Pro", "sans-serif";
 }
-
 #introtext {
 	font-size: 20px;
 	font-family: "Roboto";
 }
-
-#aboutMe {
-	background-color: white;
-	height: 100px;
-}
-
 #gem {
 	height: 1em;
 	width: 1em;
 }
-
 #button:hover {
-	box-shadow: 0 12px 12px 0 rgba(35, 163, 88, 0.2),
-		0 5px 5px 0 rgb(20, 104, 45);
+	box-shadow: 0 12px 12px 0 rgba(35, 163, 88, 0.2), 0 5px 5px 0 rgb(20, 104, 45);
 	background-color: rgba(29, 177, 102, 0.5);
 	border-color: #ffffff;
 	color: #ffffff;
@@ -77,11 +58,38 @@
 	transform: rotateY(180deg);
 }
 
+/* About Me Container */
+#about-me-container {
+	background-color: #1a1d21;
+}
+#center-header-section-text {
+	color: whitesmoke;
+	text-align: center;
+	margin-bottom: 3%;
+	margin-top: 5%;
+}
+#about-image {
+	height: 230px;
+	margin-left: 40%;
+}
+#aboutMe-text{
+	color: whitesmoke;
+}
+
+/* Portfolio Container */
+#portfolio-container {
+	background-color: #1a1d21;
+}
+
+/* Contact Container */
+#contact-container {
+	background-color: #1a1d21;
+}
+
 /* media query */
 
 @media screen and (max-width: 770px) {
-
-	#about-image{
+	#about-image {
 		margin-left: 0%;
 	}
 }
@@ -93,7 +101,6 @@
 	#title {
 		text-align: center;
 	}
-
 }
 
 @media only screen and (max-width: 415px) {
@@ -104,5 +111,4 @@
 	#introtext {
 		font-size: 16px;
 	}
-
 }
